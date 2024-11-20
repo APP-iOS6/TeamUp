@@ -31,7 +31,6 @@ struct SignUpNicknameView: View {
                     ProgressView(value: progress)
                         .animation(.easeInOut(duration: 1), value: progress)
                     
-                    
                     Spacer()
                         .frame(height: 40)
                     VStack(alignment: .leading) {

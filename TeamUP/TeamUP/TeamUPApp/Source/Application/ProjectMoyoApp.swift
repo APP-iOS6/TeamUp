@@ -11,9 +11,8 @@ import SwiftUI
 struct ProjectMoyoApp: App {
     var body: some Scene {
         WindowGroup {
-            FriendProfileView()
-//            StartTeamupView()
-//                .environmentObject(AuthManager()) // 인스턴스 전달
+            LoginView()
+                .environmentObject(AuthManager())
         }
     }
 }
