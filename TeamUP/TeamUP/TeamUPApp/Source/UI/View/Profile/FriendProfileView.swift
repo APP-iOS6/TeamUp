@@ -17,6 +17,8 @@ struct FriendProfileView: View {
     @State private var linkName: String = "노션"
     @State private var link: String = "www.example.com"
     
+    @State private var isShowingShareSheet = false
+    
     var body: some View {
         NavigationStack {
             ScrollView {
@@ -61,9 +63,7 @@ struct FriendProfileView: View {
                     
                     TagViewX(tags: $tags)
                     
-                    
                     Spacer()
-                    
                     
                     Text("링크")
                         .font(.semibold22)
@@ -72,29 +72,40 @@ struct FriendProfileView: View {
                             .font(.regular18)
                         Text("\(link)")
                             .font(.regular16)
+                            .onTapGesture {
+                                if let url = URL(string: link) {
+                                    UIApplication.shared.open(url)
+                                }
+                            }
                     }
-                    
                     Spacer()
                 }
                 .padding(20)
             }
-        }
-        .toolbar {
-            ToolbarItem(placement: .topBarTrailing) {
-                BackButton()
-            }
-            ToolbarItem(placement: .topBarTrailing) {
-                Button {
-                    
-                } label: {
-                    Image(systemName: "square.and.arrow.up")
-                        .foregroundStyle(.black)
+            .toolbar {
+                ToolbarItem(placement: .topBarLeading) {
+                    BackButton()
+                }
+                
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button(action: {
+                        showShareSheet()
+                    }) {
+                        Image(systemName: "square.and.arrow.up")
+                            .foregroundStyle(.black)
+                    }
                 }
             }
         }
     }
-}
-
-#Preview {
-    FriendProfileView()
+    private func showShareSheet() {
+        guard let url = URL(string: link) else { return }
+        let activityVC = UIActivityViewController(activityItems: [url], applicationActivities: nil)
+        
+        if let scene = UIApplication.shared.connectedScenes.first(where: { $0.activationState == .foregroundActive }) as? UIWindowScene,
+           let rootVC = scene.windows.first?.rootViewController {
+            activityVC.popoverPresentationController?.sourceView = rootVC.view // iPad에서 팝오버 설정
+            rootVC.present(activityVC, animated: true, completion: nil) // 공유 시트 표시
+        }
+    }
 }
