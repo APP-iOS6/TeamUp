@@ -22,6 +22,9 @@
 
 _우리 ‘TeamUp’은 새로운 도전에 필요한 공부와 프로젝트를 ‘어디서, 어떻게 해야할까?’
 하는 고민들을 없애고 다양한 경험과 도전을 두려움보다 설렘으로 바꾸기 위해 기획하고 개발한 앱 입니다._
+
+---
+
 <a name="페르소나"></a>
 # 페르소나 🌏
 ![image](https://github.com/user-attachments/assets/5a65669f-65e2-4dfa-bcf1-69c2731c5d68)
@@ -29,6 +32,8 @@ _우리 ‘TeamUp’은 새로운 도전에 필요한 공부와 프로젝트를 
 ![image](https://github.com/user-attachments/assets/f9f96418-d7f7-49a7-8012-16d630888933)
 ***
 ![image](https://github.com/user-attachments/assets/c2e1b42a-1932-4134-b122-df23597b2c8c)
+
+---
 
 <a name="tab-및-기능-소개"></a>
 # Tab 및 기능 소개 🔧
@@ -42,7 +47,6 @@ _우리 ‘TeamUp’은 새로운 도전에 필요한 공부와 프로젝트를 
 | **글쓰기 탭 📝** | 모집 탭과 라운지 탭에 글을 작성하여 다양한 정보를 공유할 수 있습니다. |
 | **채팅 탭 💬**   | 1:1 채팅 및 그룹 채팅을 통해 실시간 소통할 수 있습니다. |
 | **프로필 탭 👤** | 내 프로필을 꾸미고, 신청하고 저장한 글들을 한눈에 확인할 수 있습니다. |
----
 
 ## 회원가입
 
@@ -57,22 +61,26 @@ _우리 ‘TeamUp’은 새로운 도전에 필요한 공부와 프로젝트를 
 <img src="https://github.com/user-attachments/assets/5e112fd6-d8fd-47af-9188-526accffcc10" width="250" height="560"/>
 
 ## 모집
+**프로젝트와 스터디를 함께 할 사람을 모집하고 신청**
 
 <img src="https://github.com/user-attachments/assets/536aeb04-46bc-44c7-b542-96111b1169f0" width="250" height="560"/>
 
 <img src="https://github.com/user-attachments/assets/77aa77b7-2d3f-41fa-b5a7-d225418cae96" width="250" height="560"/> 
 
 ## 라운지
+**Q&A와 잡담 등 유저들과 소통할 수 있는 자유로운 공간**
 
 <img src="https://github.com/user-attachments/assets/8e2cb4cf-dfc8-4db8-9ccb-813a49886232" width="250" height="560"/>
 
 <img src="https://github.com/user-attachments/assets/a8a016e2-77c7-4cbd-961d-4e986acf3e02" width="250" height="560"/>
 
 ## 글쓰기
+**모집 탭과 라운지 탭에 글을 작성하여 팀원을 모집하고 다양한 정보를 공유**
 
 <img src="https://github.com/user-attachments/assets/7c84d5c1-5f2e-4a63-8db0-d405f4ed8801" width="250" height="560"/>
 
 ## 채팅
+**1:1 채팅 및 그룹 채팅을 통해 실시간 소통**
 
 <img src="https://github.com/user-attachments/assets/e5c7af92-fe5b-4953-975b-ca6a7a26c93f" width="250" height="560"/>
 
@@ -81,6 +89,7 @@ _우리 ‘TeamUp’은 새로운 도전에 필요한 공부와 프로젝트를 
 <img src="https://github.com/user-attachments/assets/eb0c9eee-b551-4ce7-b881-801419c12acc" width="250" height="560"/>
 
 ## 프로필
+**내 프로필을 꾸미고, 신청하고 저장한 글들을 한눈에 확인**
 
 <img src="https://github.com/user-attachments/assets/44420a8c-a8be-40b9-9653-4edade5d65e9" width="250" height="560"/>
 
@@ -94,13 +103,15 @@ _우리 ‘TeamUp’은 새로운 도전에 필요한 공부와 프로젝트를 
 
 <img src="https://github.com/user-attachments/assets/9c5a0775-44fa-4833-906a-13ddd6a8d46f" width="250" height="560"/>
 
-# 기타
+## 기타
 
 <img src="https://github.com/user-attachments/assets/a74fb0e2-4854-419b-9e37-3f67153ce1e0" width="250" height="560"/>
 
 <img src="https://github.com/user-attachments/assets/b519b7ca-ded1-41bd-a289-3a98bf96b6c1" width="250" height="560"/>
 
 <img src="https://github.com/user-attachments/assets/8bb3bc60-e87a-4da1-83e0-c31233c570ce" width="250" height="560"/>
+
+---
 
 <a name="library"></a>
 # Library 📕
@@ -136,6 +147,9 @@ _우리 ‘TeamUp’은 새로운 도전에 필요한 공부와 프로젝트를 
     Markdown 파일을 렌더링하고 사용자 인터페이스(UI)를 위한 마크다운 뷰어를 제공합니다.
 
 ```
+
+---
+
 <a name="foldering"></a>
 # Foldering 🗂️
 ```
@@ -183,6 +197,8 @@ _우리 ‘TeamUp’은 새로운 도전에 필요한 공부와 프로젝트를 
   |:---:|:---:|:---:|
   | <img src="https://github.com/KimLips.png" width="150"> | <img src="https://github.com/IUCyH.png" width="150"> | <img src="https://github.com/InyoungTechit.png" width="150"> |
   | **모집 메인 뷰** <br> **모집 상세 뷰** <br> **라운지 메인 뷰** <br> **라운지 상세 뷰**  | **백엔드** <br> **웹 서버** <br> **웹 소켓 서버** <br> **디자인**|**PM** <br> **로그인 뷰** <br>**프로필 글 관리** |
+
+---
 <a name="links"></a>
 # Links 🌐 
   <a href="https://www.figma.com/design/IYuGX6R3cISeNLB65tYHkp/LAB4-%EC%99%80%EC%9D%B4%EC%96%B4%ED%94%84%EB%A0%88%EC%9E%84%26%EB%94%94%EC%9E%90%EC%9D%B8?node-id=1155-1114&node-type=frame&t=WNgTVjtuUfDcrzNK-0" target="_blank" style="margin: 10px; text-decoration: none; color: #ffffff; background-color: #007bff; padding: 10px 20px; border-radius: 5px; transition: background-color 0.3s;">피그마</a>
